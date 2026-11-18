@@ -4,7 +4,7 @@
 
 ## قاعدة القراءة
 
-1. ابدأ بقراءة [المدخل الأصلي 40](https://raw.githubusercontent.com/zzalabri/presentation-method/main/40_OPERATING_ENTRYPOINT.md) كاملًا.
+1. ابدأ بمحاولة قراءة [المدخل الأصلي 40](https://raw.githubusercontent.com/zzalabri/presentation-method/main/40_OPERATING_ENTRYPOINT.md) كاملًا؛ إذا كان مبتورًا، اقرأ جميع أجزاء 40 المدرجة أدناه.
 2. جرّب فتح الملف الأصلي المطلوب؛ إذا ظهر النص كاملًا فلا حاجة لقراءة الأجزاء المقابلة. عند نقص القراءة أو اختصار العرض، اتبع جميع أجزاء هذا الملف بالترتيب دون تخطٍ.
 3. لكل مرجع اقرأ كل جزء فعليًا، ثم تحقق داخليًا من اكتمال **عدد الأجزاء المعلن**. ظهور عنوان الملف أو مقتطف أو رابط أو ردّ أداة ناجح لا يثبت قراءة النص كاملًا.
 4. إذا كان الجزء نفسه مقتطعًا، اطلب بقية أسطر **ذلك الجزء** من رابطِه نفسه عند توفر التصفح. لا تنتقل إلى إعلان READ_COMPLETE أو طلب إرفاق جميع الملفات قبل استنفاد مسار الأجزاء المتاحة.
@@ -12,6 +12,16 @@
 6. لا تُعدّل هذه الأجزاء خلال القراءة؛ الملفات الأصلية هي مرجع أي تحديث. الإحالات النسبية داخل نص الجزء قد تشير إلى جذر المستودع، فافتحها من روابط الجذر.
 
 ## فهرس الأجزاء
+
+### 40 — المدخل الرئيسي (5 أجزاء)
+
+[النص الأصلي الكامل](https://raw.githubusercontent.com/zzalabri/presentation-method/main/40_OPERATING_ENTRYPOINT.md)
+
+1. [الجزء 01 من 5](https://raw.githubusercontent.com/zzalabri/presentation-method/main/reading/40-01.md) — 5,003 حرفًا
+2. [الجزء 02 من 5](https://raw.githubusercontent.com/zzalabri/presentation-method/main/reading/40-02.md) — 4,822 حرفًا
+3. [الجزء 03 من 5](https://raw.githubusercontent.com/zzalabri/presentation-method/main/reading/40-03.md) — 3,611 حرفًا
+4. [الجزء 04 من 5](https://raw.githubusercontent.com/zzalabri/presentation-method/main/reading/40-04.md) — 5,190 حرفًا
+5. [الجزء 05 من 5](https://raw.githubusercontent.com/zzalabri/presentation-method/main/reading/40-05.md) — 4,272 حرفًا
 
 ### 35 — التشغيل والتصميم (9 أجزاء)
 
@@ -55,7 +65,7 @@
 
 ## حالة التحقق
 
-- العدد المتوقع: **35 = 9 أجزاء، 36 = 7 أجزاء، 37 = جزء واحد، 41 = 3 أجزاء**.
-- بعد قراءة كل مجموعة بالترتيب تستطيع تسجيل `35_READ_COMPLETE` أو `36_READ_COMPLETE` أو `37_READ_COMPLETE` أو `41_READ_COMPLETE`، بشرط قراءة **محتوى كل جزء** لا مجرد فتحه.
+- العدد المتوقع: **40 = 5 أجزاء، 35 = 9 أجزاء، 36 = 7 أجزاء، 37 = جزء واحد، 41 = 3 أجزاء**.
+- بعد قراءة كل مجموعة بالترتيب تستطيع تسجيل `40_READ_COMPLETE` أو `35_READ_COMPLETE` أو `36_READ_COMPLETE` أو `37_READ_COMPLETE` أو `41_READ_COMPLETE`، بشرط قراءة **محتوى كل جزء** لا مجرد فتحه.
 - هذا التحقق يثبت وصول النصوص فقط، وليس `ACCESS_READY` للمهمة كاملة، لأن ملف البحث وCanva يتحقق منهما بصورة مستقلة.
 
